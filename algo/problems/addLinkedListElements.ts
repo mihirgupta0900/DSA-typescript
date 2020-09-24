@@ -1,5 +1,5 @@
 //Definition for singly-linked list.
-class ListNode {
+export class ListNode {
 	val: number;
 	next: ListNode | null;
 	constructor(val?: number, next?: ListNode | null) {
@@ -154,6 +154,6 @@ const check1: ListNode = listToLinkedList([
 	0,
 	1,
 ]);
-const check2: ListNode = listToLinkedList([5, 6, 4]);
+// const check2: ListNode = listToLinkedList([5, 6, 4]);
 
-addTwoNumbers(check1, check2);
+// addTwoNumbers(check1, check2);

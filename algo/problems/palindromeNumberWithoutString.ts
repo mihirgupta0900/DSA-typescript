@@ -1,4 +1,4 @@
-function isPalindrome(x: number): boolean {
+function isPalindromeWihoutString(x: number): boolean {
 	let revNum: number = 0;
 	let rem: number = 0;
 	let copy: number = x;
