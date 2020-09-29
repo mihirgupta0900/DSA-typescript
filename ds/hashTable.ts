@@ -1,3 +1,4 @@
+/*
 class NaiveDict<T> {
 	keys: string[];
 	values: T[];
@@ -27,9 +28,9 @@ const myDict = new NaiveDict();
 myDict.setItem("first", "Mihir");
 console.log(myDict.getItem("first"));
 
-/*  
-The above is implementation is very slow, and has O(n) at the very worst
-*/
+
+// The above is implementation is very slow, and has O(n) at the very worst
+
 
 class ListNode<T> {
 	data: [string, T];
@@ -83,3 +84,4 @@ const myTable = new HashTable();
 myTable.setItem("first", "Mihir");
 myTable.setItem("last", "Gupta");
 console.log(myTable.getItem("last"));
+*/
