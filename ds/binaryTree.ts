@@ -80,6 +80,9 @@ class BST {
 	//         }
 	//     }
 	// }
+	findMaxHeight(node = this.root) {
+		//
+	}
 }
 
 const myTree = new BST();

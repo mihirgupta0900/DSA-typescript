@@ -1,4 +1,5 @@
-function sortedArrayToBST(nums: number[]): TreeNode | null {
+import { TreeNode } from "./listToBST";
+export function sortedArrayToBST(nums: number[]): TreeNode | null {
 	if (nums === null || nums.length === 0) {
 		return null;
 	}
